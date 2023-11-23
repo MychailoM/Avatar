@@ -5,12 +5,320 @@ serif;
 font-family: 'Inter',
 sans-serif; */
 
+:root {
+    --title-color: #141414;
+    --hover-color: #94CFFF;
+    --btn-text-color: #26C6EA;
+    --footer-text-color: #FFF;
+    --lang-navi: #000;
+    --first-title-color: #0A3853;
+}
 
-.container{
+.container {
     width: 1062px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
+
+
+.header {
+    border-bottom: 3px solid var(--footer-text-color);
+    background-image: url(../img/header_bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header-wrap {
+    background: rgba(43, 74, 97, 0.87);
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logotype {}
+
+.header_nav_list {
+    display: flex;
+    align-items: center;
+}
+
+.header_nav_link {
+
+    color: var(--footer-text-color);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header_button {
+    padding: 8px 38px;
+    background-color: #0B0E66;
+    border: var(--btn-text-color) solid 3px;
+    border-radius: 50px 0 50px 0;
+    color: var(--btn-text-color);
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 50px;
+}
+
+
+.header_settings_list {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    background-image: url(../img/main_bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero_text_navi {
+    padding-top: 180px;
+    color: var(--footer-text-color);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero_text_ua {
+    color: var(--footer-text-color);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 42px;
+}
+
+
+
+.hero-button-wrap {
+    padding-bottom: 180px;
+}
+
+.hero-button {
+    padding: 8px 38px;
+    background-color: #0B0E66;
+    border: var(--btn-text-color) solid 3px;
+    border-radius: 50px 0 50px 0;
+    color: var(--btn-text-color);    
+    text-align: center;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.social_network_list {
+    
+}
+
+
+
+.quote{
+    background-image: url(../img/title_img.webp);
+    background-position: center 200px;
+    background-repeat: no-repeat;
+}
+
+.quote_text{
+        color: var(--first-title-color);    
+        text-align: center;
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 75px;
+}
+.author{
+    display: block;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 148px;
+}
+
+.video {
+    background-image: url(../img/video_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 430px;
+        padding-bottom: 430px;
+    }
+
+.video_button_wrap{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.video_button{
+    padding: 25px 20px;
+    background-color: #0B0E66;
+    border: var(--btn-text-color) solid 3px;
+    border-radius: 50px 0 50px 0;
+    color: var(--btn-text-color);
+    text-align: justify;
+        font-family: HeadlandOne;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+
+.lang_navi{
+    background-image: url(../img/lang_section_bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.lang_navi_title{
+    color: var(--title-color);
+    text-align: center;    
+        font-family: HeadlandOne;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 58px;
+        margin-bottom: 45px;
+}
+
+.lang_navi_list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lang_navi_element{
+background: rgba(255, 255, 255, 0.70);
+width: 320px;
+height: 240px;
+gap: 24px;
+}
+
+.lang_wrap{
+    
+}
+
+.lang_ua{
+    text-align: center;
+    padding-top: 32px;
+    color: var(--title-color);
+        
+        font-family: HeadlandOne;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        
+}
+
+.lang_img{
+    width: 152px;
+        height: 40px;
+        margin: 0 auto;
+}
+
+.lang_navi_translation{
+    text-align: center;
+    padding-bottom: 32px;
+    
+        color: var(--title-color);
+    
+        font-family: HeadlandOne;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+}
+
+.footer{
+    background-image: url(../img/foot_bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer_logo{
+    padding-right: 80px;
+    
+}
+
+.foot_container{
+    background: rgba(43, 74, 97, 0.87);
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.foot_wrap{
+    display: flex;
+}
+
+.logo_wrap{
+    padding-top: 42px;
+    padding-bottom: 42px;
+    border-right: solid 2px var(--footer-text-color);
+}
+
+.foot_email_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer_email{
+    color: var(--footer-text-color); 
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 80px;
+}
+
+.trademark{
+        color: var(--footer-text-color);    
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
 
 

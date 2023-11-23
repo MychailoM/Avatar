@@ -7,18 +7,17 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:wght@400;600&display=swap"
-            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:wght@400;600&display=swap" rel="stylesheet">            
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <a href="index.html"><img src="img/logotype.webp" alt="logotype"></a>
+        <div class="header-wrap">
+        <div class="container header-container">
+            <a class="logotype" href="index.html"><img src="img/logotype.webp" alt="logotype"></a>
 
             <ul class="header_nav_list">
                 <li class="header_nav_element">
@@ -37,27 +36,30 @@
                 <button class="header_button" type="button">Увійти</button>
             </li>
             <li class="header_setings_element">
-                <a href="#">
+                <a href="eng.html">
                     <img src="img/switcher.webp" alt="switcher">
                 </a>
             </li>
             </ul>
+            </div>
         </div>
     </header>
 
     <main class="main">
+        
         <section class="hero">
-        <ul class="hero_list">
-            <li class="hero_list_element">
-            <div class="container">            
-            <p class="hero_text">
+            <h1 hidden>Hello</h1>
+            <div class="container"> 
+                <ul class="hero_list">
+                <li class="hero_list_element">
+            <p class="hero_text_navi">
                 Oe perlltxe hu tsamsiyu! <br>
                 Ngari hu Eywa salew tirea, <br>
                 tokx 'ì'awn slu Na'viyä hapxì. <br>
                 Säwem nìayoeng! <br>
             </p>
             <img class="hero_img" src="img/Rectangle_left_white.webp" alt="Rectangle_left_white">
-            <p class="hero_text">
+            <p class="hero_text_ua">
                 Хоробрий воїне, звертаюсь до тебе! <br>
                 Твій дух йде з Ейвою, <br>
                 твоє тіло залишається, <br>
@@ -65,9 +67,11 @@
                 Борись разом з нами! <br>
             </p>
 
-            <button type="button">
+            <div class="hero-button-wrap">
+            <button class="hero-button" type="button">
                 Приєднатися до <br> клану
             </button>
+            </div>
             </li>
 
             <li class="social_network">
@@ -103,13 +107,14 @@
                         <span class="author">
                             Джейк Саллі
                         </span>
-                        <img src="img/title_img.webp" alt="">
+                        
                     </div>
                 </section>
 
                 <section class="video">
-                    <div class="container">
-                        <button type="button">Дивитись трейлер</button>
+                    <h2 hidden>hello</h2>
+                    <div class="container video_button_wrap">
+                        <button class="video_button" type="button">Дивитись трейлер</button>
                     </div>
                 </section>
 
@@ -122,7 +127,7 @@
             <span class="author">
                 Джейк Саллі
             </span>
-            <img src="img/title_img.webp" alt="">
+            
             </div>
         </section>
 
@@ -133,36 +138,49 @@
             </h2>
             <ul class="lang_navi_list">
                 <li class="lang_navi_element">
+                    <div class="lang_wrap">
                     <h3 class="lang_ua">Привіт</h3>
-                    <img src="img/Rectangle_left.webp" alt="#">
-                    <h3 class="lang_navi">Kaltxì</h3>
+                    <img class="lang_img_left" src="img/Rectangle_left.webp" alt="#">
+                    <h3 class="lang_navi_translation">Kaltxì</h3>
+                    </div>
                 </li>
                 <li class="lang_navi_element">
+                    <div class="lang_wrap">
                     <h3 class="lang_ua">Як справи?</h3>
-                    <img src="img/title_img.webp" alt="#">
-                    <h3 class="lang_navi">Ngaru lu fpom srak?</h3>
+                    <img class="lang_img" src="img/title_img.webp" alt="#">
+                    <h3 class="lang_navi_translation">Ngaru lu fpom srak?</h3>
+                </div>
                 </li>
                 <li class="lang_navi_element">
+                    <div class="lang_wrap">
                     <h3 class="lang_ua">Все добре</h3>
-                    <img src="img/Rectangle_right.webp" alt="#">
-                    <h3 class="lang_navi">Lu fpom</h3>
+                    <img class="lang_img_right" src="img/Rectangle_right.webp" alt="#">
+                    <h3 class="lang_navi_translation">Lu fpom</h3>
+                </div>
                 </li>
                 <li class="lang_navi_element">
+                    <div class="lang_wrap">
                     <h3 class="lang_ua">Дякую</h3>
-                    <img src="img/Rectangle_left.webp" alt="#">
-                    <h3 class="lang_navi">Irayo si</h3>
+                    <img class="lang_img_left" src="img/Rectangle_left.webp" alt="#">
+                    <h3 class="lang_navi_translation">Irayo si</h3>
+                </div>
                 </li>
                 <li class="lang_navi_element">
+                    <div class="lang_wrap">
                     <h3 class="lang_ua">Я бачу тебе</h3>
-                    <img src="img/title_img.webp" alt="#">
-                    <h3 class="lang_navi">Oel ngati kameie</h3>
+                    <img class="lang_img" src="img/title_img.webp" alt="#">
+                    <h3 class="lang_navi_translation">Oel ngati kameie</h3>
+                </div>
                 </li>
                 <li class="lang_navi_element">
+                    <div class="lang_wrap">
                     <h3 class="lang_ua">Слідуй за мною!</h3>
-                    <img src="img/Rectangle_right.webp" alt="#">
-                    <h3 class="lang_navi">Nong oet!</h3>
+                    <img class="lang_img_right" src="img/Rectangle_right.webp" alt="#">
+                    <h3 class="lang_navi_translation">Nong oet!</h3>
+                </div>
                 </li>
             </ul>
+            </div>
         </section>
 
                 <section class="quote">
@@ -172,13 +190,41 @@
                             ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”
                         </h2>
                         <span class="author">
-                            Джейк Саллі
+                            Нейтірі
                         </span>
-                        <img src="img/title_img.webp" alt="">
+                        
                     </div>
                 </section>
 
     </main>
+    <footer class="footer">
+        <div class="foot_container">
+        <div class="container">
+            <div class="foot_wrap">
+                <div class="logo_wrap">
+                <a href="index.html" class="footer_logo_wrap">
+                <img src="img/logotype.webp" alt="logotype" class="footer_logo">
+            </a>
+            </div>
+
+            <div class="foot_email_wrap">
+            <a href="#" class="footer_email">Q&A E-mail
+                <img src="img/Vector_one.png" alt="vector">
+                avatartwowqa@gmail.com
+            </a>           
+            
+            <a href="#" class="footer_email">Cooperation E-mail
+                <img src="img/Vector_two.png" alt="vector">
+                avatartwowcoop@gmail.com
+            </a>            
+            </div>
+            </div>
+
+            <h3 class="trademark">©2023 Avatar: The Way Of Water. All rights reserved</h3>
+            
+        </div>
+        </div>
+    </footer>
 
 </body>
 </html>
